@@ -8,7 +8,7 @@
     .portrait{
     float: right;
     }
-    footer header{
+    header, footer{
         border-radius: 10px;
     }
 }
