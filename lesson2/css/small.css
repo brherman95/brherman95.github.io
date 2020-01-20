@@ -1,0 +1,64 @@
+body{
+    margin-top: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    max-width: 800px auto;
+    font-size: 14pt;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header, footer{
+    padding: 1px 0;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    min-width: 380px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section {
+    margin: 10px;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    background-color: white;
+}
+
+main section h2{
+    color: white;
+    margin-top: 0;
+    padding: 1rem 1rem;
+    background-color: maroon;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+main section img{
+    padding: 10px;
+    min-width: 150px;
+    max-width: 335px;
+}
+
+main section h3{
+    padding: 0 5px;
+}
+
+main section a{
+    padding: 0 5px;
+}
+
+main section p{
+    padding: 0 5px;
+}
+
+footer{
+    padding: 5px 5px 5px 5px;
+}
+
+footer a{
+    color: white;
+}
