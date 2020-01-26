@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accuweather is a advanced weather tracking site designed to provide the public with accurate weather on a daily basis.">
+    <title>AccuWeather Idaho</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="AccuWeather Logo">
+        <h1 class="title">AccuWeather Idaho<br>
+            <span class="subtitle"><em>"Accurate weather at your fingertips."</em></span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="target-audience.html">Target Audience</a></li>
+                <li><a href="color-scheme.html">Color Scheme</a></li>
+                <li><a href="typography.html" class="active">Typography</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+<h2>Typography by Element:</h2>
+<ul>
+    <li>Open Sans: Page Title, Navigation Text, & Headings</li>
+    <li>Crimson Text: Footer Text & Body Text</li>
+</ul>
+
+</main>
+<footer>
+        &copy; 2020 | AccuWeather Idaho | <a href="#">Terms of Use</a>
+        <br>
+   Last Update: <span id="date-update"></span>
+    <script>
+        var myDate = document.lastModified;
+        document.getElementById("date-update").innerHTML = myDate;
+    </script>
+</footer>
+</body>
+</html>
+
