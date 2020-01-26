@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #728394;
     font-family: 'Crimson Text', serif;
     font-size: 14pt;
@@ -6,41 +6,49 @@ body{
     color: #393A3F;
 }
 
-footer, nav{
+footer,
+nav {
     color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
     color: #E17730;
 }
 
 
-header, footer{
+header,
+footer {
     text-align: center;
     margin: 0 auto;
 }
 
-footer{
+footer {
     max-width: 800px;
     background-color: #E17738;
     padding: 10px;
 }
 
-main{
+main {
     max-width: 800px;
     background-color: #ffffff;
     margin: 0px auto;
     align-content: center;
     padding: 10px;
 }
-header{
+
+header {
     width: 100%;
     background-color: #ffffff;
 }
 
 
-header img{
+header img {
     display: inline-block;
     max-width: 60px;
     margin-top: 10px;
@@ -48,36 +56,38 @@ header img{
     vertical-align: middle;
 }
 
-header h1{
+header h1 {
     display: inline-block;
     position: relative;
     font-size: 1.25rem;
     vertical-align: middle;
 }
-.subtitle{
+
+.subtitle {
     font-size: .9rem;
 }
 
-nav{
+nav {
     background-color: #E17730;
-    
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
-nav ul li{
+
+nav ul li {
     flex: 1 1 100%;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     display: block;
     text-align: center;
@@ -86,16 +96,16 @@ nav ul li a{
     font-size: 1.05rem;
 }
 
-nav li a:hover{
+nav li a:hover {
     background-color: #728394;
 }
 
-main img{
+main img {
     max-width: 95%;
     align-content: center;
     min-width: 200px;
 }
-footer a{
+
+footer a {
     color: white;
 }
-
