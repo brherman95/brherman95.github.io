@@ -1,52 +1,56 @@
 @media only screen and (min-width: 35rem) {
-    header img{
+    header img {
         max-height: 80px;
     }
 
-    header section h1{
+    header section h1 {
         font-size: 2.2rem;
         padding: 0px 5px;
     }
-   
-    header section h2{
+
+    header section h2 {
         font-size: 1.4rem;
     }
-    nav{
-        background: #E17730; 
-        background: -moz-linear-gradient(top,  #E17730 0%, #C25E1C 100%); 
-        background: -webkit-linear-gradient(top,  #E17730 0%,#C25E1C 100%); 
-        background: linear-gradient(to bottom,  #E17730 0%, #C25E1C 100%); 
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E17730', endColorstr='#C25E1C',GradientType=0 ); 
-         }
-         nav ul.hide{
-            display: flex;
-             flex-direction: row;
-            align-content: center;
-            justify-content: center;
 
-        }
+    nav {
+        background: #E17730;
+        background: -moz-linear-gradient(top, #E17730 0%, #C25E1C 100%);
+        background: -webkit-linear-gradient(top, #E17730 0%, #C25E1C 100%);
+        background: linear-gradient(to bottom, #E17730 0%, #C25E1C 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E17730', endColorstr='#C25E1C', GradientType=0);
+    }
 
-         nav ul{
-             display: flex;
-             flex-direction: row;
-            align-content: center;
-            justify-content: center;
-         }
-        nav button {
-             display: none;
-         }
-         
+    nav ul.hide {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
 
-         nav ul li{
-            text-align: center;
-         }
-       
-         nav ul li a {
-             border: none;
-             border-right: 1px solid rgba(0,0,0,0.3);
-             padding: .8rem 1.5rem;
-         }
-         footer{
-             font-size: 1.2rem;
-         }
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1.5rem;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
 }
