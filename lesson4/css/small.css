@@ -157,6 +157,8 @@ footer section a {
     display: inline;
 }
 
-footer section p {
+footer section h3 {
+    margin:0;
+    padding:0;
     display: inline;
 }
