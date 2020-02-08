@@ -1,4 +1,3 @@
-if (new Date().getDay() != 5){
-    document.getElementsByClassName('banner').style.display = "none";
+if (new Date().getDay() != 5) {
+    document.getElementById("alert").style.display = "none";
 }
-     

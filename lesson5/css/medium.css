@@ -47,17 +47,17 @@
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
-        padding: .8rem 1.5rem;
+        padding: .8rem .8rem;
     }
 
 
-    .forecast-title{
+    .forecast-title {
         display: block;
         margin: 0;
         padding: 5px;
     }
 
-    .forecast{
+    .forecast {
         min-width: 35rem;
         max-width: 800px;
         display: flex;
@@ -67,43 +67,46 @@
         margin: 5px auto 10px auto;
     }
 
-    .forecast-item{
+    .forecast-item {
         flex: 1 1 100%;
         text-align: center;
         border: 1px solid #393A3F;
     }
 
-    .day{
+    .day {
         border-bottom: 1px solid #393A3F;
         background-color: #b9c8d646;
     }
 
-    .weathericon img{
-      height: 60px;
-      padding: 8px;
+    .weathericon img {
+        height: 60px;
+        padding: 8px;
     }
 
-    .article{
+    .article {
         margin-top: 10px;
         padding: 1.5rem;
     }
-    .article img{
+
+    .article img {
         width: 40%;
         box-shadow: 0 0 7px #111;
         float: right;
         left: 10px;
         bottom: 10px;
-        }
-    .map{
+    }
+
+    .map {
         display: block;
         padding: 2.5%;
     }
 
-    .map iframe{
+    .map iframe {
         width: 95%;
         height: auto;
         border: 0;
     }
+
     footer {
         font-size: 1.2rem;
     }
