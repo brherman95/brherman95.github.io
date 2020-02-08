@@ -50,6 +50,10 @@
         padding: .8rem .8rem;
     }
 
+    .forecast-container {
+        display: flex;
+        flex-direction: column;
+    }
 
     .forecast-title {
         display: block;
