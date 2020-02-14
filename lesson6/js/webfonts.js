@@ -1,7 +1,7 @@
 WebFont.load({
-    google: {
-      families: [
-         'Crimson Text', 'Open Sans'
-      ]
-    }
-  });
+  google: {
+    families: [
+      'Crimson Text', 'Open Sans'
+    ]
+  }
+});

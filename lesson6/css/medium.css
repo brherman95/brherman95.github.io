@@ -49,17 +49,19 @@
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .8rem .8rem;
     }
-    main{
+
+    main {
         max-width: 800px;
     }
 
-    .hero-div{
+    .hero-div {
         max-width: 800px;
     }
-    
-    section .forecast-container{
+
+    section .forecast-container {
         width: 100%;
     }
+
     .forecast-container {
         width: 100%;
         display: flex;
