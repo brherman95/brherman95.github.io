@@ -1,0 +1,25 @@
+@media only screen and (min-width: 64rem) {
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .6rem 1.5rem;
+        font-size: 1em;
+    }
+
+    main {
+        max-width: 80%;
+    }
+
+    .hero-div {
+        max-width: 100%;
+    }
+
+    .weathersum {
+        width: 25%;
+        font-size: 1rem;
+    }
+
+    footer {
+        max-width: 82%
+    }
+}
