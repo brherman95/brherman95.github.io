@@ -26,17 +26,53 @@
         <button onclick="toggleMenu()">&#9776;&ThinSpace;<span>Menu</span></button>
         <ul id="menu" class="hide">
             <li><a href="#">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
             <li class="active"><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="gallery-page">
         <h1>Weather Gallery</h1>
-
-        
+        <section class="gallery-container">
+            <picture class="img1">
+                <img src="images/loading.jpg" data-src="images/spring-blossoms-preston.jpg">
+                <p>Clear spring day in Preston.</p>
+            </picture>
+            <picture class="img2">
+                <img src="images/loading.jpg" data-src="images/snow-cap-mountains-near-soda-springs.jpg">
+                <p>Snow on Mountains near Soda Springs.</p>
+            </picture>
+            <picture class="img3">
+                <img src="images/loading.jpg" data-src="images/fish-haven-bear-lake-winter.jpg">
+                <p>Fresh Snowfall near Lake in Fish Haven.</p>
+            </picture>
+            <picture class="img4">
+                <img src="images/loading.jpg" data-src="images/avalanche-soda-springs.jpg">
+                <p>Avalanche near Soda Springs.</p>
+            </picture>
+            <picture class="img5">
+                <img src="images/loading.jpg" data-src="images/lightening-over-lake.jpg">
+                <p>Ligthening over lake in Fish Haven.</p>
+            </picture>
+            <picture class="img6">
+                <img src="images/loading.jpg" data-src="images/tornado.jpg">
+                <p>Tornado in Preston.</p>
+            </picture>
+            <picture class="img7">
+                <img src="images/loading.jpg" data-src="images/rainy-day-preston.jpg">
+                <p>Rainy day in Preston.</p>
+            </picture>
+            <picture class="img8">
+                <img src="images/loading.jpg" data-src="images/rainbow-over-lake.jpg">
+                <p>Rainbow near lake in Fish Haven.</p>
+            </picture>
+            <picture class="img9">
+                <img src="images/loading.jpg" data-src="images/fresh-snow-path.jpg">
+                <p>Fresh snow on path in Soda Springs.</p>
+            </picture>
+        </section>
     </main>
     <footer>
         <section>
@@ -52,6 +88,7 @@
     <script src="js/webfonts.js"></script>
     <script src="js/script.js"></script>
     <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 
 </html>
