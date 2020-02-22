@@ -356,6 +356,7 @@ main.gallery-page{
     padding: 0;
     border: 1px solid lightgrey;
     justify-self: center;
+    margin: 0px;
 }
 
 .gallery-container figure img[data-src] {
