@@ -38,4 +38,7 @@
         border: none;
     }
 
+    .gallery-container h1{
+        grid-column: 1 / span 3;
+    }
 }
