@@ -352,24 +352,24 @@ main.gallery-page{
     justify-content: center;
 }
 
-.gallery-container picture {
+.gallery-container figure {
     padding: 0;
     border: 1px solid lightgrey;
     justify-self: center;
 }
 
-.gallery-container picture img[data-src] {
+.gallery-container figure img[data-src] {
     filter: blur(0.2rem);
 }
 
-.gallery-container picture img {
+.gallery-container figure img {
     padding: 0;
     max-width: 100%;
     filter: blur(0rem);
     transition: filter 1.5s;
 }
 
-.gallery-container picture p {
+.gallery-container figure figcaption {
     padding: 0 10px;
     cursor: default;
     max-width: 100%;

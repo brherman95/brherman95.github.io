@@ -33,7 +33,7 @@
     }
 
 
-    .gallery-container picture:hover {
+    .gallery-container figure:hover {
         box-shadow: 0 0 30px #333;
         border: none;
     }
