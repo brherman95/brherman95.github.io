@@ -347,7 +347,7 @@ main.gallery-page{
 .gallery-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 10px;
     align-content: center;
     justify-content: center;
 }
