@@ -1,0 +1,44 @@
+@media only screen and (min-width: 64rem) {
+
+    /* CSS All Pages */
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .6rem 1.5rem;
+        font-size: 1em;
+    }
+
+    main {
+        max-width: 80%;
+    }
+
+    footer {
+        max-width: 82%
+    }
+
+    /* CSS Town Pages */
+
+    .hero-div {
+        max-width: 100%;
+    }
+
+    .weathersum {
+        width: 25%;
+        font-size: 1rem;
+    }
+
+    /* CSS Gallery Page*/
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    .gallery-container figure:hover {
+        box-shadow: 0 0 30px #333;
+        border: none;
+    }
+
+    .gallery-container h1{
+        grid-column: 1 / span 3;
+    }
+}
