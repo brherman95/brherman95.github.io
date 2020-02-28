@@ -9,6 +9,7 @@ table{
     margin: 10px auto;
     border: 1px solid lightgrey;
     border-collapse: collapse;
+    box-shadow: 10px 10px 15px #628ca6;
 }
 
 th, td{
@@ -29,6 +30,7 @@ thead tr td{
 
 thead tr:nth-child(1){
     color: black;
+    font-family: 'Ubunto-bold', sans-serif;
     font-size: 24px;
     background-color: #7fb9c2;
 }
