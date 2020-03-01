@@ -38,7 +38,12 @@
         border: none;
     }
 
-    .gallery-container h1{
+    .gallery-container h1 {
         grid-column: 1 / span 3;
+    }
+
+    /* CSS Storm Center Page*/
+    form label.sbs {
+        padding: .4rem 0;
     }
 }
