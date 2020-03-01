@@ -450,7 +450,7 @@ textarea#comments {
     display: block;
     padding: 0.75rem;
     width: 100%;
-    max-width: 17rem;
+    max-width: 15rem;
 }
 
 form label.sbs {
