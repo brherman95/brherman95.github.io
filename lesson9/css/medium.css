@@ -1,0 +1,144 @@
+@media only screen and (min-width: 35rem) {
+
+    /* CSS All Pages */
+    header img {
+        max-height: 80px;
+    }
+
+    header section h2 {
+        font-size: 2.2rem;
+        padding: 0px 5px;
+    }
+
+    header section h3 {
+        font-size: 1.4rem;
+    }
+
+    nav {
+        background: #E17730;
+        background: -moz-linear-gradient(top, #E17730 0%, #C25E1C 100%);
+        background: -webkit-linear-gradient(top, #E17730 0%, #C25E1C 100%);
+        background: linear-gradient(to bottom, #E17730 0%, #C25E1C 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E17730', endColorstr='#C25E1C', GradientType=0);
+    }
+
+    nav ul.hide {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+    nav ul li {
+        text-align: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem .8rem;
+    }
+
+    main {
+        max-width: 800px;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        max-width: 820px;
+    }
+
+    /* CSS Town Pages */
+
+    .hero-div {
+        max-width: 800px;
+    }
+
+    section .forecast-container {
+        width: 100%;
+    }
+
+    .forecast-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forecast-title {
+        display: block;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .forecast {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 2%;
+    }
+
+    .forecast-item {
+        flex: 1 1 100%;
+        text-align: center;
+        border: 1px solid #393A3F;
+    }
+
+    .day {
+        border-bottom: 1px solid #393A3F;
+        background-color: #b9c8d646;
+    }
+
+    .weathericon img {
+        height: 60px;
+        padding: 8px;
+    }
+
+    .article {
+        margin-top: 10px;
+        padding: 1.5rem;
+    }
+
+    .article img {
+        width: 40%;
+        box-shadow: 0 0 7px #111;
+        float: right;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    .map {
+        display: block;
+        padding: 2.5%;
+    }
+
+    .map iframe {
+        width: 95%;
+        height: auto;
+        border: 0;
+    }
+
+    /* CSS Gallery Page */
+    .gallery-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery-container h1 {
+        grid-column: 1 / span 2;
+    }
+}
