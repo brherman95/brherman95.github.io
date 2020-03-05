@@ -1,0 +1,56 @@
+body main div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'ubunto', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+body main div section h2{
+    color: rgb(46, 8, 5);
+    font-size: 1.5rem;
+}
+
+body main div section p{
+    font-size: 1rem;
+}
+
+body main div section img{
+    padding: 0 2%;
+    max-width: 96%;
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+header, footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(46, 8, 5);
+    color: white;    
+}
+
+
+body section {
+    padding-bottom: 10px;
+    border: 1px solid rgb(46, 8, 5);
+    background-color: rgb(110, 25, 19, 0.4);
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 35rem) {
+        body main div{
+            grid-template-columns: 1fr 1fr;
+        }
+}
+
+@media only screen and (min-width: 64rem) {
+    body main div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
