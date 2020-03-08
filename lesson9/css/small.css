@@ -152,6 +152,38 @@ footer section h3 {
     display: inline;
 }
 
+/* CSS Home Page */
+main.homepage div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main.homepage div section{
+    border: 1px solid #C25E1C;
+    width: 100%;
+    background-color: rgb(226, 120, 50, 0.4);
+    padding: 10px;
+}
+
+main.homepage div section h2{
+    color: #C25E1C;
+    text-shadow: 1.5px 1.5px 1.5px;
+}
+
+main.homepage div section h3{
+    font-style: italic;
+    color: #C25E1C;
+}
+
+main.homepage div section img{
+    max-width: 100%;
+}
+
 /* CSS Town-Pages */
 
 #alert {

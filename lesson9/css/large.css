@@ -16,6 +16,19 @@
         max-width: 82%
     }
 
+    /* CSS Home Page */
+    main.homepage div.cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main.homepage div section{
+        display: block;
+    }
+
+    main.homepage div section article, main.homepage div section img{
+        max-width: 100%;
+    }
+
     /* CSS Town Pages */
 
     .hero-div {
