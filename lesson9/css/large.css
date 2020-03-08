@@ -17,15 +17,16 @@
     }
 
     /* CSS Home Page */
-    main.homepage div.cards{
+    main.homepage div.cards {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    main.homepage div section{
+    main.homepage div section {
         display: block;
     }
 
-    main.homepage div section article, main.homepage div section img{
+    main.homepage div section article,
+    main.homepage div section img {
         max-width: 100%;
     }
 

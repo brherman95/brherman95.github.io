@@ -153,7 +153,7 @@ footer section h3 {
 }
 
 /* CSS Home Page */
-main.homepage div{
+main.homepage div {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -163,24 +163,24 @@ main.homepage div{
     padding-bottom: 10px;
 }
 
-main.homepage div section{
+main.homepage div section {
     border: 1px solid #C25E1C;
     width: 100%;
     background-color: rgb(226, 120, 50, 0.4);
     padding: 10px;
 }
 
-main.homepage div section h2{
+main.homepage div section h2 {
     color: #C25E1C;
     text-shadow: 1.5px 1.5px 1.5px;
 }
 
-main.homepage div section h3{
+main.homepage div section h3 {
     font-style: italic;
     color: #C25E1C;
 }
 
-main.homepage div section img{
+main.homepage div section img {
     max-width: 100%;
 }
 

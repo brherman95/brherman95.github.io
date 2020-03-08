@@ -63,22 +63,23 @@
 
     /* CSS Home Page */
 
-    main.homepage div section{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
+    main.homepage div section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
-    main.homepage div section >* {
+    main.homepage div section>* {
         flex: 1 1 100%;
     }
 
-    main.homepage div section article, main.homepage div section img{
+    main.homepage div section article,
+    main.homepage div section img {
         max-width: 50%;
     }
 
-    main.homepage div section:nth-child(odd){
+    main.homepage div section:nth-child(odd) {
         flex-direction: row-reverse;
     }
 
