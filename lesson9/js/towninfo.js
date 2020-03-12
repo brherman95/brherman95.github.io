@@ -10,7 +10,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
   for (let i = 0; i < towns.length; i++ ) {
-    if (i == 0 || i == 2 || i == 5){
+    if (towns[i].name == 'Preston' || towns[i].name == 'Fish Haven' || towns[i].name == 'Soda Springs'){
     let card = document.createElement('section');
     let article = document.createElement('article');
     let h2 = document.createElement('h2');
