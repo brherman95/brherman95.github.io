@@ -256,8 +256,8 @@ main .hero-div picture.heroimg img {
 .weatheritem4,
 .weatheritem6,
 .weatheritem8,
-.weatheritem10, 
-.weatheritem12{
+.weatheritem10,
+.weatheritem12 {
     text-align: right;
     color: #000000;
 }
@@ -267,7 +267,7 @@ main .hero-div picture.heroimg img {
 .weatheritem7,
 .weatheritem9,
 .weatheritem11,
-.weatheritem13{
+.weatheritem13 {
     text-align: left;
     color: white;
 }
