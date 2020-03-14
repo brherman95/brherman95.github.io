@@ -105,6 +105,7 @@
         margin: 0;
         padding: 5px;
         text-align: center;
+        font-size: 1.4em;
     }
 
     .forecast {
@@ -116,10 +117,14 @@
         margin: 5px 2%;
     }
 
-    .forecast-item {
+    div.forecast section {
         flex: 1 1 100%;
         text-align: center;
         border: 1px solid #393A3F;
+    }
+
+    div.forecast section div{
+        font-size: 1.3em;
     }
 
     .day {
@@ -128,7 +133,7 @@
     }
 
     .weathericon img {
-        height: 60px;
+        max-width: 100%;
         padding: 8px;
     }
 
@@ -141,8 +146,8 @@
         width: 40%;
         box-shadow: 0 0 7px #111;
         float: right;
-        left: 10px;
-        bottom: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .map {
