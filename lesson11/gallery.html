@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Accuweather is a advanced weather tracking site designed to provide the public with accurate weather on a daily basis.">
+    <title>AccuWeather Idaho</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="AccuWeather Logo"></a>
+        <section class="heading">
+            <h2>AccuWeather Idaho</h2>
+            <h3>"Accurate weather at your fingertips."</h3>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;&ThinSpace;<span>Menu</span></button>
+        <ul id="menu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="gallery-page">
+        <section class="gallery-container">
+            <h1>Weather Gallery</h1>
+            <figure class="img1">
+                <img src="images/loading.jpg" data-src="images/spring-blossoms-preston.jpg"
+                    alt="Spring blossoms Preston">
+                <figcaption>Clear spring day in Preston.</figcaption>
+            </figure>
+            <figure class="img2">
+                <img src="images/loading.jpg" data-src="images/snow-cap-mountains-near-soda-springs.jpg"
+                    alt="Snow cap Mountains near Soda Springs">
+                <figcaption>Snow on Mountains near Soda Springs.</figcaption>
+            </figure>
+            <figure class="img3">
+                <img src="images/loading.jpg" data-src="images/fish-haven-bear-lake-winter.jpg" alt="Winter near Lake">
+                <figcaption>Fresh Snowfall near Lake in Fish Haven.</figcaption>
+            </figure>
+            <figure class="img4">
+                <img src="images/loading.jpg" data-src="images/avalanche-soda-springs.jpg" alt="Avalanche">
+                <figcaption>Avalanche near Soda Springs.</figcaption>
+            </figure>
+            <figure class="img5">
+                <img src="images/loading.jpg" data-src="images/lightening-over-lake.jpg" alt="Lightning over lake">
+                <figcaption>Ligthening over lake in Fish Haven.</figcaption>
+            </figure>
+            <figure class="img6">
+                <img src="images/loading.jpg" data-src="images/tornado.jpg" alt="Tornado">
+                <figcaption>Tornado in Preston.</figcaption>
+            </figure>
+            <figure class="img7">
+                <img src="images/loading.jpg" data-src="images/rainy-day-preston.jpg" alt="Rainy day on road">
+                <figcaption>Rainy day in Preston.</figcaption>
+            </figure>
+            <figure class="img8">
+                <img src="images/loading.jpg" data-src="images/rainbow-over-lake.jpg"
+                    alt="Rainbow over mountains near lake">
+                <figcaption>Rainbow near lake in Fish Haven.</figcaption>
+            </figure>
+            <figure class="img9">
+                <img src="images/loading.jpg" data-src="images/fresh-snow-path.jpg" alt="Fresh snow on path">
+                <figcaption>Fresh snow on path in Soda Springs.</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>&copy; 2020 | AccuWeather Idaho | <a href="#">Terms of Use</a></h3>
+        </section>
+        <section>
+            <h3 class="date">
+                Todays Date: <span id="currentdate"></span>
+            </h3>
+        </section>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
