@@ -287,12 +287,37 @@ div.weatheritem1 h3 {
     display: none;
 }
 
-.article {
+
+
+
+.article, div.events {
     padding: 10px;
-    margin: 0px auto 15px auto;
+    margin: 10px auto 5px auto;
     width: 100%;
     box-shadow: 0 0 1px #111;
     background-color: #b9c8d646;
+}
+
+div.events section{
+    margin: 4px;
+    border: 10px solid #C25E1C;
+}
+
+div.events section article{
+    padding: 15px;
+    text-align: center;
+}
+
+div.events section article h2{
+    display: block;
+    border-bottom: 1.5px solid #111;
+    padding-bottom: 5px;
+    margin: 0 10%;
+}
+
+div.events section article p{
+    color: #E17730;
+    font-size: 1.1em;
 }
 
 .article img {
@@ -310,7 +335,7 @@ div.weatheritem1 h3 {
     width: 100%;
     background-color: #b9c8d646;
     display: flex;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 1.2rem;
     flex-direction: row;
     align-items: center;
