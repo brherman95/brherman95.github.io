@@ -346,8 +346,6 @@ div.events section article p{
 .map,
 .info {
     flex: 1 1 100%;
-    align-self: center;
-    justify-self: center;
 }
 
 .map {
