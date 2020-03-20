@@ -29,7 +29,7 @@ fetch(requestURL)
     p3.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
     image.setAttribute('src', 'images/' + towns[i].photo);
     image.setAttribute('alt', towns[i].name);
-    card.setAttribute('onclick', 'location.href="' + towns[i].name.replace(' ', '') + '.html"');
+    card.setAttribute('onclick', 'location.href="' + towns[i].name.replace(' ', '').toLowerCase() + '.html"');
     article.appendChild(h2);
     article.appendChild(h3);
     article.appendChild(p1);
