@@ -554,7 +554,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1028px) and (min-width: 1028px) {
+@media only screen and (min-width: 1028px) {
   header, nav, main, footer {
     max-width: 1200px;
     margin: auto;
@@ -574,8 +574,4 @@ footer {
   div.news {
     column-count: 3;
   }
-}
-
-@media only screen and (min-width: 1028px) {
-  /* end of media query */
 }
