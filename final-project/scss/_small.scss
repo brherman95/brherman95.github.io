@@ -1,0 +1,261 @@
+/* Apply to All Pages */
+body {
+    background-color: $PageBackground;
+    font-family: $fontFamily2;
+    margin-top: 0px;
+    color: $BodyTextColor;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    max-width: 100%;
+}
+
+header img {
+    min-width: 50px;
+    max-height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $HeaderTitleColor;
+}
+
+header section h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: $fontFamily1;
+}
+
+header section h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-family: $fontFamily1;
+    font-style: italic;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: $NavFooterTextnContainer;
+    cursor: pointer;
+}
+
+nav button span {
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: $NavFooterBackground;
+    font-family: $fontFamily1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    padding: .8rem 0px;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    color: $NavFooterTextnContainer;
+    font-size: .9em;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: $NavFooterTextnContainer;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    background-color: $NavFooterTextnContainer;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+}
+
+footer {
+    background-color: $NavFooterBackground;
+    color: $NavFooterTextnContainer;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: .8em;
+    text-align: center;
+}
+
+footer a {
+    color: $NavFooterTextnContainer;;
+    text-decoration: none;
+    display: inline;
+}
+
+footer h3 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+/* The Home Page */
+
+main div#content {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 10px;
+   align-content: center;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+main div#content section img{
+    max-width: 100%;
+}
+
+main div#content section h2{
+    color: $HeaderTitleColor;
+}
+
+.hero-div {
+    margin: 10px auto;
+    position: relative;
+    max-width: 100%;
+}
+
+
+main .hero-div picture.heroimg img {
+    width: 96%;
+    margin: 0 2%;
+}
+
+.hero-div figure {
+    box-shadow: 0 0 1px #111;
+}
+
+.weathersum {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    background: $NavFooterBackground;
+    background: -moz-linear-gradient(top, $NavFooterBackground 0%, #C25E1C 100%);
+    background: -webkit-linear-gradient(top, $NavFooterBackground 0%, #C25E1C 100%);
+    background: linear-gradient(to bottom, $NavFooterBackground 0%, #C25E1C 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$NavFooterBackground', endColorstr='#C25E1C', GradientType=0);
+    border: 1px solid #C25E1C;
+    padding: 8px 5px 8px 5px;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    display: grid;
+    grid-template-columns: auto auto;
+    min-width: 160px;
+    max-width: 25%;
+    font-size: .8em;
+    margin-bottom: 2px;
+}
+
+.weatheritem1 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: #000000;
+}
+
+.weatheritem2,
+.weatheritem4,
+.weatheritem6,
+.weatheritem8,
+.weatheritem10,
+.weatheritem12 {
+    text-align: right;
+    color: #000000;
+}
+
+.weatheritem3,
+.weatheritem5,
+.weatheritem7,
+.weatheritem9,
+.weatheritem11,
+.weatheritem13 {
+    text-align: left;
+    color: white;
+}
+
+div.weatheritem1 h3 {
+    margin: 0;
+}
+
+/* Plan Your Trip Page */
+main.plan-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 100%;
+}
+
+main.plan-page section img{
+    max-width: 100%;
+}
+
+main.plan-page section div.trip-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    align-items: center;
+}
+main.plan-page section div.trip-details h2, div.whatsincluded, div.includedlist{
+    grid-column: 1 / span 2;
+}
+

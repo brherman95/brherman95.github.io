@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Salmon River Adventures is an white water rafting tour company providing information, tours, and experienced guides to make your white water adventure a success.">
+        <title>Salmon River Adventures</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        
+
+    <header>
+        <a href="index.html"><img src="images/rafting.png" alt="Salmon River Adventures Logo"></a>
+        <section class="heading">
+            <h2>Salmon River Adventures</h2>
+            <h3>Adventure at its finest!</h3>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;&ThinSpace;<span>Menu</span></button>
+        <ul id="menu" class="hide">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="plan.html">Plan a Trip</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="guides.html">Our Guides</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="hero-div">
+            <picture class="heroimg">
+                <source media="(max-width: 559px)" srcset="images/hero-sm.jpg">
+                <source media="(max-width: 1023px)" srcset="images/hero-med.jpg">
+                <img src="images/hero-lrg.jpg" alt="Hero Image">
+            </picture>
+            <section class="weathersum">
+                <div class="weatheritem1">
+                    <h3>Rigin's Weather</h3>
+                </div>
+                <div class="weatheritem2">Currently:&nbsp;&nbsp;</div>
+                <div class="weatheritem3" id="currently"></div>
+                <div class="weatheritem4">Current Temp:&nbsp;&nbsp;</div>
+                <div class="weatheritem5"><span id="temp"></span>&#8457;</div>
+                <div class="weatheritem6">High:&nbsp;&nbsp;</div>
+                <div class="weatheritem7"><span id="high"></span>&#8457;</div>
+                <div class="weatheritem8">Wind Chill:&nbsp;&nbsp;</div>
+                <div class="weatheritem9"><span id="windchill"></span><span id="degree">&#8457;</span></div>
+                <div class="weatheritem10">Humidity:&nbsp;&nbsp;</div>
+                <div class="weatheritem11"><span id="humidity"></span>%</div>
+                <div class="weatheritem12">Wind Speed:&nbsp;&nbsp;</div>
+                <div class="weatheritem13"><span id="windspeed"></span> mph</div>
+            </section>
+        </div>
+<div id="content">
+        <section>
+            <div id="text">
+            <h2>Welcome to Salmon River Adventures</h2>
+            <p>Your one stop guide to adventure. Whether you're a beginner, ameature or pro, we're here to help make your dream trip a reality.</p>
+            </div>  
+            <div id="img">
+            <img src="images/water-rafting-2.jpg" alt="Group rafting down river rapids">
+        </div>
+        </section>
+            <section>
+            <div id="text">
+            <h2>About Us</h2>
+            <p>Since 1985, Salmon River Adventures has been providing, equipment, guides, and tours of the Salmon River. Whether you're into rafting or kayaking, we've got the mean to help you.</p>
+            </div>
+            <div id="img">
+                <img src="images/kayaking.jpg" alt="Man kayaking down river rapids">
+            </div>
+        </section>
+        <section>
+            <div id="text">
+            <h2>Contact Information</h2>
+            <p>Phone Number: 888-888-8888</p>
+            <p>Address: 1000 S Main St., Riggins, ID</p>
+            <h3>Call and Schedule Your Tour Today!</h3>
+            </div>
+            <div id="img">
+                <img src="images/contact.jpg" alt="Phone with various contact options">
+            </div>
+        </section>
+    </div>
+    
+    </main>
+
+    <footer>
+        <h3>&copy; 2020 | Salmon River Adventures | <a href="terms.html">Attribution/Terms of Use</a></h3>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/rigins-weather.js"></script>
+</body>
+</html>
