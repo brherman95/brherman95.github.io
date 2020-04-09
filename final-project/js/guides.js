@@ -1,4 +1,4 @@
-const requestURL = 'directory/tour-guides.json';
+const requestURL = 'https://brherman95.github.io/final-project/directory/tour-guides.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -39,5 +39,4 @@ fetch(requestURL)
         card.appendChild(article);
         document.querySelector('div.cards').appendChild(card);
       }
-    }
-  });
+    });
