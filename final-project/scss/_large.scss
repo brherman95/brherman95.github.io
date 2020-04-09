@@ -18,6 +18,18 @@ main div#content{
     grid-column: 3 / span 1;
 }
 
+main div#content section.main{
+    grid-column: 1 / span 2;
+}
+
+
+main div#content section.aboutus, main div#content section.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* CSS All Pages */
 nav ul li a {
@@ -33,4 +45,12 @@ main {
 
 footer {
     max-width: 82%
+}
+
+main.plan-page{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main.plan-page h2{
+    grid-column: 1 / span 3;
 }
