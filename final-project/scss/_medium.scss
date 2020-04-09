@@ -1,12 +1,12 @@
-main div#content section{
+main div#content section {
     display: flex;
     flex-direction: row-reverse;
     flex: 1 1 100%;
-   align-content: center;
-   justify-content: center;
+    align-content: center;
+    justify-content: center;
 }
 
-main div#content section:nth-child(2){
+main div#content section:nth-child(2) {
     flex-direction: row;
 }
 
@@ -14,7 +14,7 @@ main div#content section>* {
     flex: 1 1 100%;
 }
 
-main div#content section div{
+main div#content section div {
     padding: 10px;
 }
 
@@ -22,7 +22,7 @@ main div#content section div{
     max-width: 800px;
 }
 
-main.plan-page{
+main.plan-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -30,23 +30,26 @@ main.plan-page{
     grid-gap: 15px;
 }
 
-main.plan-page section{
+main.plan-page section {
     margin: 0;
 }
 
-main.plan-page h2{
+main.plan-page h2 {
     grid-column: 1 / span 2;
 }
 
-main.contact-page section{
+main.contact-page section {
     flex-direction: row;
 }
 
-.contactinfo{
+.contactinfo {
     padding: 0 10px;
 }
 
-/* CSS All Pages */
+div.cards {
+    grid-template-columns: 1fr 1fr;
+}
+
 header img {
     max-height: 80px;
 }
@@ -98,5 +101,3 @@ footer {
     font-size: 1.2rem;
     max-width: 820px;
 }
-
-

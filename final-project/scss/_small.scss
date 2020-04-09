@@ -1,4 +1,3 @@
-/* Apply to All Pages */
 body {
     background-color: $PageBackground;
     font-family: $fontFamily2;
@@ -121,12 +120,13 @@ main {
     background-color: $NavFooterTextnContainer;
     width: 100%;
     margin: 0 auto;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 footer {
     background-color: $NavFooterBackground;
-    color: $NavFooterTextnContainer;;
+    color: $NavFooterTextnContainer;
+    ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,7 +139,8 @@ footer {
 }
 
 footer a {
-    color: $NavFooterTextnContainer;;
+    color: $NavFooterTextnContainer;
+    ;
     text-decoration: none;
     display: inline;
 }
@@ -150,21 +151,20 @@ footer h3 {
     display: inline;
 }
 
-/* The Home Page */
-
 main div#content {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-gap: 10px;
-   align-content: center;
-   justify-content: center;
-   padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
-main div#content section img{
+
+main div#content section img {
     max-width: 100%;
 }
 
-main div#content section h2{
+main div#content section h2 {
     color: $HeaderTitleColor;
 }
 
@@ -236,8 +236,7 @@ div.weatheritem1 h3 {
     margin: 0;
 }
 
-/* Plan Your Trip Page */
-main.plan-page{
+main.plan-page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,17 +244,18 @@ main.plan-page{
     flex: 1 1 100%;
 }
 
-main.plan-page h2{
+main.plan-page h2 {
     text-align: center;
     color: $HeaderTitleColor;
     font-style: italic;
 }
-main.plan-page section h2{
+
+main.plan-page section h2 {
     color: $HeaderTitleColor;
     text-align: center;
 }
 
-main.plan-page section img{
+main.plan-page section img {
     max-width: 100%;
 }
 
@@ -265,7 +265,7 @@ main.plan-page section {
     padding: 10px;
 }
 
-.details{
+.details {
     display: grid;
     grid-template-columns: auto auto;
     padding: 5px 8px 5px 8px;
@@ -281,20 +281,20 @@ main.plan-page section {
     text-align: center;
 }
 
-.details .label{
+.details .label {
     text-align: right;
     padding: 5px;
     color: $HeaderTitleColor;
     font-weight: bold;
 }
 
-.details .info{
+.details .info {
     text-align: left;
     padding: 5px;
 }
 
 
-main.plan-page section div.trip-details p span{
+main.plan-page section div.trip-details p span {
     color: $HeaderTitleColor;
     font-weight: bold;
 }
@@ -387,7 +387,7 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
-main.reserve h2{
+main.reserve h2 {
     color: $HeaderTitleColor;
     text-align: center;
     font-style: italic;
@@ -395,15 +395,16 @@ main.reserve h2{
     margin-bottom: 0;
 }
 
-.contactinfo h2, .contactinfo p{
+.contactinfo h2,
+.contactinfo p {
     text-align: center;
 }
 
-.contactinfo h2{
+.contactinfo h2 {
     color: $HeaderTitleColor;
 }
 
-main.contact-page section{
+main.contact-page section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -411,25 +412,34 @@ main.contact-page section{
     flex: 1 1 100%;
 }
 
-main.guide-page h2{
+main.guide-page h2 {
     color: $HeaderTitleColor;
     font-weight: bold;
 }
 
-main.guide-page h3{
+main.guide-page h3 {
     color: $HeaderTitleColor;
     font-weight: bold;
 }
 
-main.guide-page article{
+main.guide-page article {
     border: 1px solid $HeaderTitleColor;
     padding: 10px;
+    max-height: 775px;
 }
 
-main.guide-page{
+main.guide-page {
     text-align: center;
 }
 
-main.guide-page p{
+main.guide-page p {
     text-align: left;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
 }

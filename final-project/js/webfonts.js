@@ -1,7 +1,7 @@
 WebFont.load({
-    google: {
-      families: [
-        'PT Sans', 'Lora'
-      ]
-    }
-  });
+  google: {
+    families: [
+      'PT Sans', 'Lora'
+    ]
+  }
+});

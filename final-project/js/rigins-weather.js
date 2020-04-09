@@ -25,4 +25,3 @@ fetch(apiURL)
     }
 
   });
-
