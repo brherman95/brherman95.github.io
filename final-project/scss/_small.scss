@@ -443,3 +443,17 @@ div.cards {
     justify-content: center;
     grid-gap: 10px;
 }
+
+table{
+    text-align: left;
+}
+
+table tr th{
+    color: $HeaderTitleColor;
+}
+
+table tr th, table tr td{
+    padding: 10px;
+    border: 1px solid $HeaderTitleColor;
+    font-size: .8em;
+}

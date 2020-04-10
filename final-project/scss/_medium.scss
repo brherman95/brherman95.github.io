@@ -101,3 +101,8 @@ footer {
     font-size: 1.2rem;
     max-width: 820px;
 }
+table tr th, table tr td{
+    padding: 10px;
+    border: 1px solid $HeaderTitleColor;
+    font-size: 1em;
+}
